@@ -4,7 +4,7 @@ var express = require('express');
 var path = require('path');
 var app = express();
 var bodyParser = require('body-parser');
-
+// var ngParallax = require('ng-parallax');
 
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, './client')));

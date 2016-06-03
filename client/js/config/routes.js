@@ -3,9 +3,13 @@ MyApp.config(function($routeProvider){
 	$routeProvider
 
 	.when('/', {
-		templateUrl: './../views/login.html',
-		controller: 'usersController'
+		templateUrl: './../views/splash.html',
+		controller: 'scrollCtrl'
 	})
-
-	.otherwise('/')
+	// .when('#about', {
+	// 	templateUrl: './../views/splash.html',
+	// 	controller: 'usersController'
+	// })
+	// //
+	// .otherwise('/')
 })
